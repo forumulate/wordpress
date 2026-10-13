@@ -1,0 +1,7 @@
+.git
+.github
+.gitignore
+.distignore
+README.md
+phpcs.xml.dist
+scripts

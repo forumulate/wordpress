@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ruleset name="Forumulate">
+	<description>WordPress Coding Standards for the Forumulate plugin.</description>
+
+	<file>.</file>
+	<arg name="extensions" value="php"/>
+	<arg value="s"/>
+
+	<config name="minimum_supported_wp_version" value="6.1"/>
+	<config name="testVersion" value="7.4-"/>
+
+	<rule ref="WordPress"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="forumulate"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="forumulate"/>
+				<element value="Forumulate"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- index.asset.php is the name the block editor's asset loader looks for. -->
+	<rule ref="WordPress.Files.FileName.NotHyphenatedLowercase">
+		<exclude-pattern>blocks/*/index.asset.php</exclude-pattern>
+	</rule>
+</ruleset>

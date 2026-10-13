@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "forumulate/embed",
+	"version": "1.0.0",
+	"title": "Forumulate",
+	"category": "embed",
+	"icon": "format-chat",
+	"description": "Forumulate comments, docs search or ask, the changelog bell, or a blog, changelog or docs feed.",
+	"keywords": [ "comments", "forum", "changelog", "docs", "feed" ],
+	"textdomain": "forumulate",
+	"attributes": {
+		"kind": { "type": "string", "enum": [ "comments", "widget", "changelog", "feed" ], "default": "comments" },
+		"space": { "type": "string", "default": "" },
+		"topic": { "type": "string", "default": "" },
+		"theme": { "type": "string", "enum": [ "", "light", "dark" ], "default": "" },
+		"mode": { "type": "string", "enum": [ "search", "ask" ], "default": "search" },
+		"placeholder": { "type": "string", "default": "" },
+		"feedType": { "type": "string", "enum": [ "blog", "changelog", "docs" ], "default": "blog" },
+		"limit": { "type": "integer", "default": 5 },
+		"showExcerpt": { "type": "boolean", "default": true },
+		"title": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

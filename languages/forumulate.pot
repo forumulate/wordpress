@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-13 16:31-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-forumulate-admin.php:38
+#: includes/class-forumulate-admin.php:39
+#: includes/class-forumulate-admin.php:245 blocks/embed/index.js:141
+msgid "Forumulate"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:54
+msgid "Settings"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:72
+msgid "Connection"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:73
+msgid "Look"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:74
+#: includes/class-forumulate-embeds.php:121 blocks/embed/index.js:20
+msgid "Comments"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:75
+msgid "Feeds"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:78
+msgid "Organization id"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:78
+msgid "From your Forumulate console address: /o/<organization id>/…"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:79
+msgid "Default space id"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:79
+msgid "Used by every embed and feed that does not name its own space."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:80
+msgid "Comments space id"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:80
+msgid ""
+"The community space that holds article comments. Empty: the default space."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:81
+msgid "Changelog space id"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:81
+msgid "For the changelog bell and changelog feeds. Empty: the default space."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:82
+msgid "API token (optional)"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:83
+msgid "API address"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:83
+msgid ""
+"Leave as https://forumulate.com/api unless Forumulate support tells you "
+"otherwise."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:85
+msgid "Comments theme"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:86
+msgid "Accent colour"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:86
+msgid "A hex colour such as #4818f0. Empty: Forumulate’s default."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:87
+msgid "Corner radius"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:87
+msgid "A CSS length such as 6px."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:88
+msgid "Font"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:88
+msgid "A CSS font-family list. Empty: the system font."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:90
+msgid "Replace WordPress comments"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:91
+msgid "On these post types"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:93
+msgid "Docs address"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:93
+msgid ""
+"Where your docs space is published, e.g. https://docs.example.com. Docs feed "
+"links are this plus each page’s slug. Empty: looked up with the token, or "
+"titles are listed without links."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:94
+msgid "Cache feeds for (minutes)"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:135
+msgid ""
+"Public embeds and feeds need only the organization and space ids. A token is "
+"never sent to visitors’ browsers; it is only used by this site to check the "
+"connection and to find where a docs space is published."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:142
+msgid ""
+"When on, posts of the chosen types show a Forumulate thread instead of "
+"WordPress comments: one topic per post, created on its first visit. Existing "
+"WordPress comments are kept and return if you turn this off."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:169
+msgid ""
+"Set by the FORUMULATE_TOKEN constant in wp-config.php. Remove the constant "
+"to manage it here."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:177
+msgid ""
+"A token is saved but can no longer be read (this site’s security keys "
+"changed). Enter it again."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:179
+msgid ""
+"A token is saved (encrypted). Leave this empty to keep it, or enter a new "
+"one to replace it."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:183
+msgid "Remove the saved token"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:186
+msgid ""
+"Optional. A Personal Access Token with the read scope, from Account → "
+"Tokens. You can also define FORUMULATE_TOKEN in wp-config.php instead."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:197 blocks/embed/index.js:76
+msgid "Light"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:198 blocks/embed/index.js:77
+msgid "Dark"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:213
+msgid "Show Forumulate comments instead of WordPress comments"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:253
+msgid "Tools"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:255
+msgid "Check connection"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:256
+msgid "Clear feed cache"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:265
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:274
+msgid "Or add the Forumulate block in the editor."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:303
+msgid "You are not allowed to do that."
+msgstr ""
+
+#. translators: %s: error message.
+#: includes/class-forumulate-admin.php:336
+#, php-format
+msgid "Could not reach Forumulate: %s"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:341
+msgid ""
+"Forumulate is reachable, but the organization or default space is missing."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:346
+msgid ""
+"Forumulate is reachable and the organization and default space are set. "
+"Public embeds will work."
+msgstr ""
+
+#. translators: %s: error message.
+#: includes/class-forumulate-admin.php:356
+#, php-format
+msgid "The token was refused: %s"
+msgstr ""
+
+#: includes/class-forumulate-admin.php:359
+msgid "your account"
+msgstr ""
+
+#. translators: %s: account email.
+#: includes/class-forumulate-admin.php:363
+#, php-format
+msgid "The token works and acts as %s."
+msgstr ""
+
+#: includes/class-forumulate-admin.php:383
+msgid "Feed cache cleared."
+msgstr ""
+
+#. translators: %d: HTTP status code.
+#: includes/class-forumulate-api.php:58
+#, php-format
+msgid "Forumulate answered HTTP %d."
+msgstr ""
+
+#: includes/class-forumulate-api.php:65
+msgid "Forumulate answered something that was not JSON."
+msgstr ""
+
+#: includes/class-forumulate-embeds.php:75
+msgid "Forumulate: set the organization and space in Settings → Forumulate."
+msgstr ""
+
+#: includes/class-forumulate-embeds.php:122 blocks/embed/index.js:90
+msgid "Search"
+msgstr ""
+
+#: includes/class-forumulate-embeds.php:123
+msgid "What’s new"
+msgstr ""
+
+#. translators: %s: error message.
+#: includes/class-forumulate-feed.php:63
+#, php-format
+msgid "Forumulate feed unavailable: %s"
+msgstr ""
+
+#: includes/class-forumulate-feed.php:67
+msgid "Nothing published yet."
+msgstr ""
+
+#: includes/class-forumulate-feed.php:106
+msgid "set the organization and space in Settings → Forumulate."
+msgstr ""
+
+#: includes/class-forumulate-feed.php:116
+msgid "the last request failed; retrying shortly."
+msgstr ""
+
+#. translators: %s: the setting's field name.
+#: includes/class-forumulate-options.php:121
+#, php-format
+msgid "%s is not a valid Forumulate id or slug, so it was cleared."
+msgstr ""
+
+#: includes/class-forumulate-options.php:166
+msgid "The token could not be stored: this server has no OpenSSL."
+msgstr ""
+
+#: blocks/embed/index.js:21
+msgid "Docs search or ask"
+msgstr ""
+
+#: blocks/embed/index.js:22
+msgid "Changelog bell"
+msgstr ""
+
+#: blocks/embed/index.js:23
+msgid "Feed (blog, changelog or docs)"
+msgstr ""
+
+#: blocks/embed/index.js:27
+msgid "the space from Settings → Forumulate"
+msgstr ""
+
+#: blocks/embed/index.js:30
+msgid "Shows the comment thread for one topic, from "
+msgstr ""
+
+#: blocks/embed/index.js:31
+msgid "Shows the comment thread for this page, from "
+msgstr ""
+
+#: blocks/embed/index.js:32
+msgid "The first visit creates the thread."
+msgstr ""
+
+#: blocks/embed/index.js:36
+msgid "An \"ask a question\" box answered from "
+msgstr ""
+
+#: blocks/embed/index.js:37
+msgid "A search box over "
+msgstr ""
+
+#: blocks/embed/index.js:39
+msgid "A \"What's new\" bell with an unread badge, from "
+msgstr ""
+
+#: blocks/embed/index.js:48
+msgid "Show"
+msgstr ""
+
+#: blocks/embed/index.js:55
+msgid "Space id or slug"
+msgstr ""
+
+#: blocks/embed/index.js:56
+msgid "Leave empty to use the space from Settings → Forumulate."
+msgstr ""
+
+#: blocks/embed/index.js:65
+msgid "Topic id (optional)"
+msgstr ""
+
+#: blocks/embed/index.js:66
+msgid "Empty: one thread per page, found by the page address."
+msgstr ""
+
+#: blocks/embed/index.js:72
+msgid "Theme"
+msgstr ""
+
+#: blocks/embed/index.js:75
+msgid "From settings"
+msgstr ""
+
+#: blocks/embed/index.js:87
+msgid "Mode"
+msgstr ""
+
+#: blocks/embed/index.js:91
+msgid "Ask (AI answer)"
+msgstr ""
+
+#: blocks/embed/index.js:97
+msgid "Placeholder"
+msgstr ""
+
+#: blocks/embed/index.js:107
+msgid "Feed"
+msgstr ""
+
+#: blocks/embed/index.js:110
+msgid "Blog posts"
+msgstr ""
+
+#: blocks/embed/index.js:111
+msgid "Changelog releases"
+msgstr ""
+
+#: blocks/embed/index.js:112
+msgid "Recently updated docs"
+msgstr ""
+
+#: blocks/embed/index.js:118
+msgid "Heading (optional)"
+msgstr ""
+
+#: blocks/embed/index.js:124
+msgid "Items"
+msgstr ""
+
+#: blocks/embed/index.js:132
+msgid "Show dates and excerpts"
+msgstr ""
+
+#: blocks/embed/index.js:158
+msgid "It appears on the published page."
+msgstr ""
